@@ -47,7 +47,9 @@ export default function App() {
         </label>
       </div>
 
-      <input type="file" accept={accept} onChange={handleFileChange} />
+      <input type="file" accept="image/heic" onChange={handleFileChange} />
+      <input type="file" accept="image/*" onChange={handleFileChange} />
+      <input type="file" accept="image/jpeg" onChange={handleFileChange} />
 
       {preview && (
         <div style={{ marginTop: "1em" }}>
