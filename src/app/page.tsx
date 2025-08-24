@@ -33,7 +33,7 @@ export default function App() {
       {/* accept 切り替え */}
       <div style={{ marginBottom: "1em" }}>
         <label>
-          <input type="radio" value="image/*" accept="image/*" />
+          <input type="radio" value="image/*" accept="image/heic" />
           accept=image/*
         </label>
         <label style={{ marginLeft: "1em" }}>
